@@ -17,7 +17,7 @@ router.get('/api/:userid/:uuid',async (req,res)=>{
             filename:file.filename,
             name:file.name,
             filesize:file.size,
-            downloadLink:`${process.env.BASE_URL}/show/${userid}/${file.uuid}`
+            downloadLink:`${process.env.BASE_URL}show/${userid}/${file.uuid}`
         });
     }
     catch(err){
