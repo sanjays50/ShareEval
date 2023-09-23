@@ -9,10 +9,9 @@ function connectDB(){
 
     connection.once('open',()=>{
         console.log('database connected.');
+    }).catch((err)=>{
+        console.log('connection failed.');
     })
-    // .catch((err)=>{
-    //     console.log('connection failed.');
-    // })
 }
 
 module.exports=connectDB;
