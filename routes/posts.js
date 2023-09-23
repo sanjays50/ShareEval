@@ -3,7 +3,8 @@ const File=require('../models/file');
 const User=require('../models/user');
 const Post=require('../models/post');
 const { findOne } = require('../models/user');
-
+const dotenv=require("dotenv");
+dotenv.config();
 
 router.post("/:userid/:uuid",async (req,res)=>{
     const uuid=req.params.uuid;
@@ -19,7 +20,7 @@ router.post("/:userid/:uuid",async (req,res)=>{
         discription:req.body.discription
     });
     const response=await post.save();
-    return res.render('upload',{uuid:uuid,user:user,message:'Successfully Posted'});
+    return res.render('upload',{uuid:uuid,user:user,message:'Successfully Posted',baseurl:process.env.BASE_URL});
 })
 
 router.get("/likes/:userid/:postid",async (req,res)=>{

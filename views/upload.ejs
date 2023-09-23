@@ -23,7 +23,7 @@
                     <p class="expire p1">Link to download file</p>
                     <div class="input-container">
                         <form action="/posts/<%= user._id %>/<%= uuid %>" method="POST">
-                            <input type="text" name="url" id="fileURL" readonly value="https://shareeval.onrender.com/download/api/<%= user._id %>/<%= uuid %>">
+                            <input type="text" name="url" id="fileURL" readonly value="<%= baseurl %>download/api/<%= user._id %>/<%= uuid %>">
                             <img src="/copy-icon.png" alt="copy icon" id="copyBtn">
                             <input type="text" name="projectname" placeholder="Project Name" style="margin-top: 15px;">
                             <input type="textarea" name="discription" placeholder="Project Discription" style="margin-top: 15px;">
