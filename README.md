@@ -1,21 +1,21 @@
 
 # 🚀ShareEval
 
-REST API web application using Node.js, Express, and MongoDB for file sharing, featuring unique web links generation, public posting, and feedback functionalities.
+- REST API web application using Node.js, Express, and MongoDB for file sharing, featuring unique web links generation, public posting, and feedback functionalities.
 
 
 ## Deployment
-For Live Demo visit
+- For Live Demo visit
 
 [https://shareeval.onrender.com](https://shareeval.onrender.com)
 ## Installation
 
-After download or clone run ```npm install ```  to install all the dependancies. also do not forget to rename .``` env.example ``` into ``` .env ``` an put all creadentials.
+- After download or clone run ```npm install ```  to install all the dependancies. also do not forget to rename .``` env.example ``` into ``` .env ``` an put all creadentials.
 
     
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+- To run this project, you will need to add the following environment variables to your .env file
 
 `MONGO_URL`
 `BASE_URL`
@@ -30,25 +30,25 @@ To run this project, you will need to add the following environment variables to
 
 ## Run Locally
 
-Clone the project
+- Clone the project
 
 ```bash
   git clone https://github.com/sanjays50/ShareEval
 ```
 
-Go to the project directory
+- Go to the project directory
 
 ```bash
   cd ShareEval
 ```
 
-Install dependencies
+- Install dependencies
 
 ```bash
   npm install
 ```
 
-Start the server
+- Start the server
 
 ```bash
   npm start
@@ -57,9 +57,9 @@ Start the server
 
 ## 🛠 Tech Stack
 
-**Frontend:** EJS, TailwindCSS, JavaScript, CSS
+- **Frontend:** EJS, TailwindCSS, JavaScript, CSS
 
-**Backend:** Node, Express, MongoDB, Multer
+- **Backend:** Node, Express, MongoDB, Multer
 
 
 ## 🔗 Links
@@ -76,12 +76,12 @@ Start the server
 
 ## Lessons Learned
 
-Mastered the art of developing a REST API web application, seamlessly storing files locally, and efficiently managing data in a database.
+- Mastered the art of developing a REST API web application, seamlessly storing files locally, and efficiently managing data in a database.
 
 
 ## Feedback
 
-If you have any feedback, please reach out to us at sanjayshekhawat778@gmail.com
+- If you have any feedback, please reach out to us at sanjayshekhawat778@gmail.com
 
 
 ## Demo
