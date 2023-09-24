@@ -59,7 +59,8 @@
 
 **Frontend:** EJS, TailwindCSS, JavaScript, CSS
 
-**Backend:** Node, Express, MongoDB, Multer
+**Backend:** Node, Express, MongoDB
+
 
 
 ## 🔗 Links
