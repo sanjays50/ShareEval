@@ -1,8 +1,7 @@
 
 # 🚀ShareEval
 
-- REST API web application using Node.js, Express, and MongoDB for file sharing, featuring unique web links generation, public posting, and feedback functionalities.
-
+- Build an advanced REST API web application for seamless file sharing using a powerful tech stack: Node.js, Express, and MongoDB. This feature-rich platform boasts robust user authentication to ensure data security. With secure file upload and storage mechanisms, your users can confidently share their files while unique web links for each upload simplify sharing. Embrace public posting options, enabling users to make their files accessible to a wider audience. Solicit and manage feedback effortlessly, enhancing user interaction. Implement search and discovery tools, empowering users to find files quickly. The responsive user interface ensures a seamless experience across devices. Thorough error handling, comprehensive API documentation, and reliable deployment strategies make this platform a developer's dream.
 
 ## Deployment
 - For Live Demo visit
